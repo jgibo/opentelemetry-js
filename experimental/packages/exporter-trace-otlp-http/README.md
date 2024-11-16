@@ -2,7 +2,11 @@
 
 ## Fork Changes
 
-This is a fork of the upstream. The fork adds fetch support into exporter-trace-otlp-http and supporting packages. The fork repo is https://github.com/jgibo/opentelemetry-js, and the changes were originally authored by https://github.com/sugi in his fork https://github.com/sugi/opentelemetry-js.
+This is a fork of the upstream. The fork adds fetch support into exporter-trace-otlp-http and supporting packages. The fork repo is https://github.com/jgibo/opentelemetry-js, branch service-worker-support. The changes were originally authored by https://github.com/sugi in his fork https://github.com/sugi/opentelemetry-js.
+
+Fetch support is automatically detected by the exporter, and chosen if xhr and beacon are not availeable in the environment (which is the case in a service worker), no changes are required to application code.
+
+Note, the most recent merge of upstream main into service-worker-support branch was on Feb 11 2024, so this change is likely missing a few updates that have been released to the upstream since then.
 
 [![NPM Published Version][npm-img]][npm-url]
 [![Apache License][license-image]][license-image]

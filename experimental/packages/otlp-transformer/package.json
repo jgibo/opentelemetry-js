@@ -1,6 +1,6 @@
 {
   "name": "@jgibo/otlp-transformer",
-  "version": "0.48.0-dev1",
+  "version": "0.48.0-dev2",
   "private": false,
   "publishConfig": {
     "access": "public"
