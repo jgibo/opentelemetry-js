@@ -1,5 +1,9 @@
 # OpenTelemetry Protocol
 
+## Fork Changes
+
+This is a fork of the upstream. The fork adds fetch support into exporter-trace-otlp-http and supporting packages. The fork repo is https://github.com/jgibo/opentelemetry-js, and the changes were originally authored by https://github.com/sugi in his fork https://github.com/sugi/opentelemetry-js.
+
 [![NPM Published Version][npm-img]][npm-url]
 [![Apache License][license-image]][license-image]
 
