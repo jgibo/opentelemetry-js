@@ -35,6 +35,12 @@
 
 ---
 
+## Fork Overview
+
+Commit e1eb3a58 adds fetch support to exporter-trace-otlp-http, this commit is built and published to npm at @jgibo/exporter-trace-otlp-http. Credit to @sugi for this work, I've forked his fork to publish the change.
+
+The rest of the README is unchanged from the upstream repo opentelemetry/opentelemetry-js
+
 ## About this project
 
 This is the JavaScript version of [OpenTelemetry](https://opentelemetry.io/), a framework for collecting traces, metrics, and logs from applications.
