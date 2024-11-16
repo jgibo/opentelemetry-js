@@ -1,6 +1,6 @@
 {
-  "name": "@opentelemetry/exporter-trace-otlp-http",
-  "version": "0.48.0",
+  "name": "@jgibo/exporter-trace-otlp-http",
+  "version": "0.48.0-dev2",
   "description": "OpenTelemetry Collector Trace Exporter allows user to send collected traces to the OpenTelemetry Collector",
   "main": "build/src/index.js",
   "module": "build/esm/index.js",
@@ -98,8 +98,8 @@
   },
   "dependencies": {
     "@opentelemetry/core": "1.21.0",
-    "@opentelemetry/otlp-exporter-base": "0.48.0",
-    "@opentelemetry/otlp-transformer": "0.48.0",
+    "@jgibo/otlp-exporter-base": "0.48.0-dev1",
+    "@jgibo/otlp-transformer": "0.48.0-dev1",
     "@opentelemetry/resources": "1.21.0",
     "@opentelemetry/sdk-trace-base": "1.21.0"
   },

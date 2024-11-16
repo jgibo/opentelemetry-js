@@ -16,16 +16,16 @@
 
 import { ReadableSpan, SpanExporter } from '@opentelemetry/sdk-trace-base';
 import { getEnv, baggageUtils } from '@opentelemetry/core';
-import { OTLPExporterNodeBase } from '@opentelemetry/otlp-exporter-base';
+import { OTLPExporterNodeBase } from '@jgibo/otlp-exporter-base';
 import {
   OTLPExporterNodeConfigBase,
   appendResourcePathToUrl,
   appendRootPathToUrlIfNeeded,
-} from '@opentelemetry/otlp-exporter-base';
+} from '@jgibo/otlp-exporter-base';
 import {
   createExportTraceServiceRequest,
   IExportTraceServiceRequest,
-} from '@opentelemetry/otlp-transformer';
+} from '@jgibo/otlp-transformer';
 import { VERSION } from '../../version';
 
 const DEFAULT_COLLECTOR_RESOURCE_PATH = 'v1/traces';

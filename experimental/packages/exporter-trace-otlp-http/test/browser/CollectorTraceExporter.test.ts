@@ -31,8 +31,8 @@ import {
 import {
   OTLPExporterConfigBase,
   OTLPExporterError,
-} from '@opentelemetry/otlp-exporter-base';
-import { IExportTraceServiceRequest } from '@opentelemetry/otlp-transformer';
+} from '@jgibo/otlp-exporter-base';
+import { IExportTraceServiceRequest } from '@jgibo/otlp-transformer';
 import { FetchMockStatic, MockCall } from 'fetch-mock/esm/client';
 const fetchMock = require('fetch-mock/esm/client').default as FetchMockStatic;
 

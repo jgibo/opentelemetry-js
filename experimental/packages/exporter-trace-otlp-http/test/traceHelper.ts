@@ -31,7 +31,7 @@ import {
   ILink,
   IResource,
   ISpan,
-} from '@opentelemetry/otlp-transformer';
+} from '@jgibo/otlp-transformer';
 
 if (typeof Buffer === 'undefined') {
   (window as any).Buffer = {

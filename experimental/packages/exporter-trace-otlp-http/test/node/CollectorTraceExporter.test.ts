@@ -20,7 +20,7 @@ import {
   CompressionAlgorithm,
   OTLPExporterError,
   OTLPExporterNodeConfigBase,
-} from '@opentelemetry/otlp-exporter-base';
+} from '@jgibo/otlp-exporter-base';
 import { ReadableSpan } from '@opentelemetry/sdk-trace-base';
 import * as assert from 'assert';
 import * as http from 'http';
@@ -35,7 +35,7 @@ import {
 } from '../traceHelper';
 import { nextTick } from 'process';
 import { MockedResponse } from './nodeHelpers';
-import { IExportTraceServiceRequest } from '@opentelemetry/otlp-transformer';
+import { IExportTraceServiceRequest } from '@jgibo/otlp-transformer';
 import { VERSION } from '../../src/version';
 
 let fakeRequest: PassThrough;
